@@ -445,9 +445,13 @@ void taskNum(int *num, int nowCustomers){
 	cout << "Currently, the number of accounts on the sever is : " << nowCustomers;
 	cout << endl << endl << endl; 
 	
-	cout << "Please enter the task number to be processed." << endl;
-	cout << "Make new account : 1 번, Deposit : 2번, Withdraw : 3번, ";
-	cout << "Balance iquiry : 4 번, Manager-only menu : 0 번" << endl;
+	cout << "Please enter the task number to be processed." << endl << endl;
+	cout << "Make new account : Enter no.1" << endl;
+	cout << "Deposit : Enter no.2" << endl;
+	cout << "Withdraw : Enter no.3, " << endl;
+	cout << "Balance iquiry : Enter no.4" << endl;
+	cout << "Manager-only menu : Enter no.0" << endl << endl << endl;
+	cout << "Entered by number : ";
 	
 	*num = getInt();
 	
