@@ -1,0 +1,140 @@
+1
+1234
+john smith
+y
+1000
+n
+y
+1
+2345
+jenny jung
+y
+2000
+n
+y
+1
+3456
+tommy simson
+y
+1500
+n
+y
+1
+7410
+janson Mraz
+y
+4500
+n
+y
+1
+9510
+john rockfeller 
+y
+12000
+n
+y
+1
+8541
+hillary clinton
+y
+3000
+n
+y
+1
+4561
+jimy carter
+y
+2200
+n
+y
+1
+1562
+randy johnson
+y
+7800
+n
+y
+1
+3571
+albert pujols
+y
+10000
+n
+y
+1
+1989
+michael jordan
+y
+11000
+n
+y
+1
+3234
+김 철수
+y
+15000
+n
+y
+1
+1375
+나 영숙
+y
+22000
+n
+y
+1
+8456
+홍 길동
+y
+31500
+n
+y
+1
+2410
+이 산
+y
+14500
+n
+y
+1
+1015
+이 순신
+y
+42312000
+n
+y
+1
+4271
+신 유연
+y
+943000
+n
+y
+1
+4502
+진 선미
+y
+242200
+n
+y
+1
+7532
+총 유리
+y
+724800
+n
+y
+1
+4621
+마이클 정
+y
+1140000
+n
+y
+1
+1392
+이 성계
+y
+11000
+n
+y
