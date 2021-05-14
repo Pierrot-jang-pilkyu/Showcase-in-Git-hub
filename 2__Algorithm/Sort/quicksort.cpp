@@ -29,14 +29,14 @@ int main(){
     int left = 1, right = 10;
 
     cout << "Before the quicksort a : ";
-    for(int i = 0; i < right; i++){
+    for(int i = 1; i <= right; i++){
         cout << a[i] << " ";
     }cout << endl << endl;
 
     quickSort(a, left, right);
 
     cout << "After the quicksort a : ";
-    for(int i = 0; i < right; i++){
+    for(int i = 1; i <= right; i++){
         cout << a[i] << " ";
     }cout << endl << endl;
 
