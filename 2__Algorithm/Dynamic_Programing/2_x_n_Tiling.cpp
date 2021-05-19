@@ -1,24 +1,47 @@
+// BeakJun N0. 11726. Problem.
+
 #include <iostream>
+#define N_MAX 1001
 
 using namespace std;
 
-int caseNum[1001];      // Memoization
+int N, result;
+int caseNum[N_MAX];      // Memoization
 
-int tiling(int n) {
-    if(n == 1) return caseNum[n] = 1;
-    if(n == 2) return caseNum[n] = 2;
-    if(caseNum[n] != 0) return caseNum[n];
+void Input(){
+    
+    cin >> N;
 
-    return caseNum[n] = ((tiling(n - 1) + tiling(n - 2)) % 10007);
+    caseNum[1] = 1;     // Number of case at N = 1
+    caseNum[2] = 2;     // Number of case at N = 2
+
+}
+
+void Solution(){
+
+    for(int i = 3; i <= N; i++){
+
+        caseNum[i] = (caseNum[i - 1] + caseNum[i - 2]) % 10007;
+
+    }
+
+    result = caseNum[N];
+
+    cout << result << endl;
+}
+
+void Solve(){
+
+    Input();
+
+    Solution();
+
 }
 
 
 int main(){
-    int n;
-
-    cin >> n;
-
-    cout << tiling(n);
+    
+    Solve();
 
     return 0;
 }
