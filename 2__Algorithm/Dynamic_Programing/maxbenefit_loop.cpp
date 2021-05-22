@@ -26,7 +26,7 @@ void Input() {
 
     for(int i = N + 2; i < N_MAX; i++){
         // When you select N th consulting, if N + T is bigger than N + 1,
-        // to do not select. 
+        // not to select. 
         MP[i] = -951753852;
     }
 
