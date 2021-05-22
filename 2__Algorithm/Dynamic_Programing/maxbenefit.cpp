@@ -10,7 +10,7 @@ enum Select { NO, YES };
 
 int N, SelTx = 1, result = 0;
 int TP[N_MAX][3] = {0, };       // 1. Time, 2. Price  TP[0][0] = TP[0][1] = TP[0][2] = 0
-int MP[N_MAX] = {0, };       // Max Price    MP[0][0] = MP[0][1] = MP[0][2] = 0
+int MP[N_MAX] = {0, };       // Max Price    
 
 void Input() {
 
@@ -26,19 +26,22 @@ void Input() {
 
 }
 
+int Scheduled(int i){
+
+    if(i == N + 1) return 0;
+    if(i > N + 1) return -999999999;
+    
+    if(MP[i] != 0) return MP[i];
+
+    return MP[i] = max(Scheduled(i + 1), Scheduled(i + TP[i][1]) + TP[i][2]);
+}
+
 void Solution(){
 
-    for(int i = N; i >= 1; i--){
-
-        if(i + TP[i][1] <= N + 1){
-            MP[i] = max(MP[i + 1], MP[i + TP[i][1]] + TP[i][2]);
-        }
-
-    }
-
-    result = MP[1];
+    result = Scheduled(1);
 
     cout << result << endl;
+
 }
 
 void Solve() {
