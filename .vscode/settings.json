@@ -8,6 +8,10 @@
         "random": "cpp",
         "vector": "cpp",
         "deque": "cpp",
-        "xtree": "cpp"
+        "xtree": "cpp",
+        "xstring": "cpp",
+        "set": "cpp",
+        "map": "cpp",
+        "iterator": "cpp"
     }
 }
