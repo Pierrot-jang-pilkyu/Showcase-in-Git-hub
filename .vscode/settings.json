@@ -12,6 +12,7 @@
         "xstring": "cpp",
         "set": "cpp",
         "map": "cpp",
-        "iterator": "cpp"
+        "iterator": "cpp",
+        "xiosbase": "cpp"
     }
 }
