@@ -45,6 +45,23 @@ void binarySearch(int key, int index, int arr[]){
 
 }
 
+/* int BS(int key, vector<int> arr){        // return index
+
+    int left = 0, right = arr.size();
+
+    while(left < right){
+    	
+        int mid = (left + right) / 2;
+
+        if(arr[mid] >= key) right = mid;
+        else left = mid + 1;
+
+    }
+
+    return right;
+
+} */
+
 int main(){
 
     ios::sync_with_stdio(false);
